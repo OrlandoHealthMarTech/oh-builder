@@ -10,7 +10,7 @@ This Turborepo includes the following:
 
 - `website1`: a [Next.js](https://nextjs.org/) app with ExtJS integration
 - `website2`: another [Next.js](https://nextjs.org/) app with ExtJS integration
-- `@orlandohealth/cms-components`: a shared React component library used by both websites
+- `@jhs129/cms-components`: a shared React component library used by both websites
 
 Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
 

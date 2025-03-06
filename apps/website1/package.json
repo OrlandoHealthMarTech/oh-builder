@@ -10,7 +10,7 @@
     "clean": "rm -rf .next .turbo node_modules"
   },
   "dependencies": {
-    "@orlandohealth/cms-components": "*",
+    "@jhs129/cms-components": "*",
     "next": "^14.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
@@ -26,4 +26,4 @@
     "tailwindcss": "^3.3.3",
     "typescript": "^5.1.6"
   }
-} 
+}

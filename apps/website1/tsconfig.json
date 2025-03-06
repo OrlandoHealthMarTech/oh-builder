@@ -4,8 +4,8 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"],
-      "@orlandohealth/cms-components": ["../../packages/cms-components/src"],
-      "@orlandohealth/cms-components/*": ["../../packages/cms-components/src/*"]
+      "@jhs129/cms-components": ["../../packages/cms-components/src"],
+      "@jhs129/cms-components/*": ["../../packages/cms-components/src/*"]
     },
     "jsx": "preserve",
     "plugins": [

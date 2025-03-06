@@ -1,4 +1,4 @@
-import { Button, Card } from '@orlandohealth/cms-components';
+import { Button, Card } from '@jhs129/cms-components';
 import Head from 'next/head';
 
 export default function Home() {
