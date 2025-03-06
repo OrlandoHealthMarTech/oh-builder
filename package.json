@@ -1,24 +1,36 @@
 {
   "name": "oh-builder",
+  "version": "1.0.0",
+  "description": "Orlando Health Turborepo for ExtJS websites",
   "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "check-types": "turbo run check-types"
+    "clean": "turbo run clean && rm -rf node_modules"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OrlandoHealthMarTech/oh-builder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/OrlandoHealthMarTech/oh-builder/issues"
+  },
+  "homepage": "https://github.com/OrlandoHealthMarTech/oh-builder#readme",
   "devDependencies": {
-    "prettier": "^3.5.3",
-    "turbo": "^2.4.4",
-    "typescript": "5.8.2"
+    "prettier": "^3.0.3",
+    "turbo": "^1.10.16"
   },
-  "engines": {
-    "node": ">=18"
-  },
-  "packageManager": "npm@11.2.0",
-  "workspaces": [
-    "apps/*",
-    "packages/*"
-  ]
+  "dependencies": {
+    "@swc/core": "^1.11.7"
+  }
 }
