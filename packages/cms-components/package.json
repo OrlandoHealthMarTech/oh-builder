@@ -1,6 +1,7 @@
 {
   "name": "@jhs129/cms-components",
-  "version": "0.0.1",
+  "version": "0.0.7",
+  "description": "CMS Components for Orlando Health",
   "private": false,
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",

@@ -8,9 +8,28 @@ This Turborepo includes the following:
 
 ### Apps and Packages
 
-- `website1`: a [Next.js](https://nextjs.org/) app with ExtJS integration
-- `website2`: another [Next.js](https://nextjs.org/) app with ExtJS integration
+- `website1`: a [Next.js](https://nextjs.org/) app with ExtJS integration (uses `@jhs129/cms-components` version 0.0.3 with blue background)
+- `website2`: another [Next.js](https://nextjs.org/) app with ExtJS integration (uses `@jhs129/cms-components` version 0.0.7 with red background)
 - `@jhs129/cms-components`: a shared React component library used by both websites
+
+### Component Versioning
+
+The `@jhs129/cms-components` package is published to GitHub Packages with the following versions:
+
+- Version 0.0.1: Initial version
+- Version 0.0.2: Previous version
+- Version 0.0.3: Version with visible version indicator and blue background, used by website1
+- Version 0.0.4: Previous version with visible version indicator and blue background
+- Version 0.0.5: Previous version with dynamic version display from package.json
+- Version 0.0.6: Previous version with visible version indicator and red background
+- Version 0.0.7: Latest version with visible version indicator and red background, used by website2
+
+The Card component displays its version number to make it easy to verify which version is being used. The background color also changes between versions (blue for 0.0.3, red for 0.0.7) to provide a clear visual difference.
+
+To publish a new version:
+
+1. Update the version in `packages/cms-components/package.json`
+2. Run `npm run build && npm publish` from the `packages/cms-components` directory
 
 Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
 
