@@ -1,6 +1,6 @@
 import React from 'react';
 // Use a hardcoded version for 0.0.6 with a distinct visual appearance
-const VERSION = '0.0.8';
+const VERSION = '0.0.9';
 
 export interface CardProps {
   title?: string;
